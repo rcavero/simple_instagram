@@ -1,0 +1,85 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.mainWrapper{
+    background: lightgray;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+}
+.topWrapper{
+    background: white;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.topWrapper h1{
+    /*margin: 5px;*/
+}
+.contentWrapper{
+    background: lightgray;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+}
+.publication{
+    background: lightgray;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.topPublication{
+    background: white;
+    width: 430px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.topPublication #tituloPublicacion{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.topPublication #fechaPublicacion{
+    color: gray;
+    padding-right: 10px;
+    font-size: 80%;
+}
+.picturePublication{
+    background: white;
+    width: 430px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.picturePublication img{
+    max-width: 430px;
+}
+.commentsPublication{
+    background: white;
+    width: 430px;
+    text-align: justify;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.commentsPublication p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
